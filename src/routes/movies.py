@@ -68,4 +68,3 @@ async def get_movie(movie_id: int, db: AsyncSession = Depends(get_db)):
         )
 
     return movie
-
